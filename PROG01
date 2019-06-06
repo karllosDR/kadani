@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main(){
+    int x=0;
+    int a;
+    for (x = 0; x<=20;x++){
+        if(x%2==0){
+            printf("%d",x);
+            a += x;
+            
+        }
+        
+    }
+        
+            printf("a soma desses múmeros é igual a %d\n",a);
+            
+    }
